@@ -49,10 +49,83 @@ nav li > a {
 	text-decoration: none;
 }
 
+.form {
+	float: right;
+	margin: 0 4%;
+	display: inline-block;
+	font-size: 0;
+}
 
+.form input {
+	border: none;
+	background-color: #efefed;
+	padding: 18px 35px 18px 18px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 0;
+}
 
+.form button {
+	border: none;
+	background-color: #efefed;
+	padding: 18px 18px 19px 18px;
+	font-size: 13px;
+	line-height: 0
+}
 
+.main {
+	margin: 5%;
+}
 
+.main .body li {
+	display: inline-block;
+}
+
+.body img {
+	height: 375px;
+}
+
+.body ul p {
+	position: absolute;
+	margin-top: -300px;
+	margin-bottom: 0;
+	font-size: 35px;
+	display: inline-block;
+	color: #ff7e00;
+	font-weight: lighter;
+}
+
+.body p span {
+	font-weight: bolder;
+}
+
+.body p span#web, .body p span#app {
+	color: #7accc8;
+}
+
+.body p sup {
+	font-size: 14px;
+}
+
+#quote, #studies {
+	border: none;
+	padding: 20px;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	margin-top: 0;
+}
+
+#quote {
+	background-color: #ff7e00;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#studies {
+	background-color: #7accc8;
+	margin-left: 30px;
+}
 
 footer {
 	height: 70px;
