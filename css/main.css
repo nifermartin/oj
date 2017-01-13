@@ -87,6 +87,7 @@ nav li > a {
 
 .body ul p {
 	position: absolute;
+	width: 475px;
 	margin-top: -300px;
 	margin-bottom: 0;
 	font-size: 35px;
