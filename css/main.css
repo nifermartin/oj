@@ -41,7 +41,6 @@ nav ul {
 nav li {
 	display: inline-block;
 	padding: 0 15px;
-	padding-top: 
 }
 
 nav li > a {
@@ -85,7 +84,7 @@ nav li > a {
 	height: 375px;
 }
 
-.body ul p {
+.body ul h1 {
 	position: absolute;
 	width: 475px;
 	margin-top: -300px;
@@ -96,15 +95,15 @@ nav li > a {
 	font-weight: lighter;
 }
 
-.body p span {
+.body h1 span {
 	font-weight: bolder;
 }
 
-.body p span#web, .body p span#app {
+.body h1 span#web, .body p span#app {
 	color: #7accc8;
 }
 
-.body p sup {
+.body h1 sup {
 	font-size: 14px;
 }
 
